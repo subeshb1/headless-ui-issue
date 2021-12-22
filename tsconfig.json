@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "target": "es5",
+    "incremental": true,
+    "module": "esnext"
+  },
+  "include": [
+    "next-env.d.ts",
+    "react-table-config.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": ["node_modules"]
+}
